@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+BODY {
+	color:black;
+	background-color:#FFF;
+	font-family:arial;
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-left: 0px;
+	margin-left: 1px;
+}
+FORM {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 10px;
+}
+
+/*************  main  **************/
+.menu {
+width:700px; 
+font-size:0.85em;
+position:relative; z-index:100;
+}
+/* loai bo cac cham trang tu mac dinh cua the li */
+.menu ul {
+padding:0;
+margin:0;
+list-style-type:none;
+white-space: normal;
+}
+.menu ul ul {
+width:100px;
+}
+/* float de cho danh sach ngang hang */
+.menu li {
+float:left;
+width:120px;
+position:relative;
+}
+
+/* cac thuoc tinh cua menu muc 1 menu a */
+.menu a, .menu a:visited {
+display:inline-table;
+font-size:11px;
+text-decoration:none; 
+font-weight:normal;
+color:#FFF;
+width:120px;
+height:32px;
+line-height:29px;
+border:1px #03F;
+border-width:1px 1px 0 1px;
+text-align:center;
+}
+
+/* muc lev 2 */
+.menu ul ul a, .menu ul ul a:visited {
+font-size:11px;
+font-weight:normal;
+background:#000; 
+color:#000;  /* mau chu trong drop*/
+height:auto; 
+line-height:1em; 
+padding:5px 10px; 
+width:150px
+}
+/* khi di chuot vao the a*/
+.menu a:hover, .menu ul ul a:hover{
+border:0px solid #03F;
+border-width:0px 0px 0px 0px;
+}
+/* mau cac dropdown table */
+.menu ul ul a.drop, .menu ul ul a.drop:visited {
+background:#FFF; 
+}
+/* mau cua table khi di chuot vao */
+.menu ul ul a.drop:hover{
+background:#03F;
+}
+.menu ul ul :hover > a.drop {
+background:#03F;
+}
+/*an dropdown  khi chua di chuot vao*/
+.menu ul ul {
+visibility:hidden;
+position:absolute;
+height:0;
+top:31px;
+left:0;
+width:150px;
+}
+/* lam hien ra dropdown khi chi chuot vao */
+.menu ul li:hover ul,
+.menu ul a:hover ul{
+visibility:visible; 
+}
+
+

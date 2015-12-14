@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.left_menu {
+	border-right: 1px solid #FFF;
+	font-family: Verdana,Tahoma, Arial, sans-serif;
+	font-size : 11px;
+	/*background-color: #90bade;*/
+	color: #F00;
+	font-weight:bold;
+	width:150px;
+}
+
+.left_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.left_menu li {
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+	BORDER-RIGHT: #09F 1px solid; BORDER-TOP: #09F 1px solid; VERTICAL-ALIGN: middle; BORDER-LEFT: #09F 1px solid; BORDER-BOTTOM: #09F 1px solid
+}
+
+.left_menu li a {
+	display: block;
+	padding: 3px 3px 3px 0.5em;
+	/*background-color: #306161;*/
+	color:#000;
+	text-decoration: none;
+}
+/* li trang chu */
+.left_menu li.mc a{
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #ffcc01;
+}
+/* li trang chu hover chi vao đổi màu chữ */
+.left_menu li.mc a:hover{
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #F00; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #ffcc01;
+}
+.left_menu li a:hover {
+
+	background-color: #2586d7;
+	color: #fff;
+}
+.left_menu li a.on {
+	background-color: #2586d7;
+	color: #fff;
+}
+.left_menu li.c a:hover,.left_menu li.c a.on 
+{
+	border-left-width:medium;
+	background-color: #FA5912;
+	color: #fff;
+	font-size:12px;
+	text-decoration: none;
+}
+
+

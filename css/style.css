@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+.btndangky 
+{
+	width:108px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:14px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462176591.png) ;
+}
+.btndangky:hover
+{
+	background:url(../anh/cooltext462176591MouseOver.png) ;
+}
+.btnthoat 
+{
+	width:83px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:17px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462176418.png);
+}
+.btnthoat:hover
+{
+	background:url(../anh/cooltext462176418MouseOver.png) ;
+}
+.dangky
+{
+	margin-left:1px;
+	padding-left:1px;
+	margin-top:1px;
+	padding-top:1px;
+}
+.btncapnhat 
+{
+	width:115px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:17px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462232186.png);
+}
+.btncapnhat:hover
+{
+	background:url(../anh/cooltext462232186MouseOver.png) ;
+}
+.btnexit 
+{
+	width:80px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:17px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462232293.png);
+}
+.btnexit:hover
+{
+	background:url(../anh/cooltext462232293MouseOver.png) ;
+}
+.chu 
+{
+	font:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#06C;
+}
+.tanle
+{
+	border-collapse:separate;
+	border-color:#06F;
+}
+.table a{
+display:inline-table;
+font-size:12px;
+text-decoration:none; 
+font-weight:normal;
+color:#03F;
+width:170px;
+height:25px;
+line-height:20px;
+text-align:center;
+float:left;
+}
+.anh img
+{
+	float:left;
+	margin-right:12px;
+}
+.lechotable
+{
+	padding-left:10px;
+	padding-right:10px;	
+}
+.chuto
+{
+	font:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#06C;
+	font-weight:bold;
+}
